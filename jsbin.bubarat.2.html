@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2020 by DaSilvaKT (http://jsbin.com/bubarat/2/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>A Very Simple Profile Page</title>
+</head>
+<body>
+  <div id='WelcomeNote'>
+    <h1 align=center> Welcome to Kevin Da Silva's<br>Online Résumé</h1>
+    <hr>
+  </div>
+  <div class='BodyDiv1'>
+    <p align=center>Please <a href='https://www.linkedin.com/in/kevin-tony-da-silva-9358b242/'><strong>click here</strong></a> to view LinkedIn profile.</p>
+    <br>
+    <p align=center> <img src='data:image/jpeg;base64,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' alt='Profile Picture Image'></p>
+    <p><h2><u>About Me</u></h2></p>
+    <p>Experienced Team Lead with a demonstrated history of working in the staffing and recruiting industry. Skilled in Local Area Network (LAN), Sales, Databases, Management, and Recruiting. Strong information technology professional with a National Diploma focused in Management from Cape Peninsula University of Technology.</p>
+    <hr>
+  </div>
+  <div class='BodyDiv1'>
+    <p><h2><u>Experience</u></h2></p>
+    <br>
+    <p><h3><i><a href='https://www.linkedin.com/company/kurtosys-systems/'>Kurtosys Systems</a></i></h3></p>
+    <p>Talent Acquisition Specialist</p>
+    <p><i>May 2019 - Current</i></p>
+    <p><b>Duties and Responsibilities</b></p>
+    <p><ul>
+      <li>Managing the entire talent acquisition process: from generating pipeline to maintaining a successful offer acceptance rate, while providing a high-quality candidate experience.</li>
+      <li>Building and maintaining relationships with talent in the startup communities by attending external events.</li>
+      <li>Sourcing passive candidates through outbound recruiting efforts, inbound candidate generation, and employee referrals.</li>
+      <li>Using my knowledge of programming languages, database technologies, cloud technologies, and software development to explain product and environment to passive and active candidates.</li>
+      <li>Constant communication with the hiring managers including; weekly meetings and working as an advisor to processes and skills.</li>
+      <li>Collaborate within a global talent acquisition team, as well as mentor junior members of the team.</li>
+      <li>Setting up meetings/hiring process i.e assessments, onsite interviews, and zoom calls.</li>
+    </p></ul>
+    <hr>
+    <p><h3><i><a href='https://www.linkedin.com/company/peoplesolved/about/'>PeopleSolved</a></i></h3></p>
+    <p>Team Leader: Technical Resourcing</p>
+    <p><i>Aug 2014 – Apr 2019</i></p>
+    <p><b>Duties and Responsibilities</b></p>
+    <p><ul>
+      <li>Leading a team of 11 Technical Resource Consultants; assisting them with processes; up skilling and training them; delegating priority requirements and jobs; and stream lining their processes.</li>
+      <li>Training and up-skilling of new consultants - sharing knowledge and information with them to assist their growth.</li>
+      <li>Drafting of default emails and documentation for company and consultant use.</li>
+      <li>Source talent for open positions - Resourcing candidates and CV's - Online CV Sourcing using Pnet, Career Junction, LinkedIn, Skillpages and other Social Media.</li>
+      <li>Identify competitors and candidate sources for recruiting top talent into the organization.</li>
+      <li>Conduct outreach and recruitment activities including cold calling.</li>
+      <li>Conduct an initial telephone interview of all applicants and resourced candidates and gather all necessary information regarding education, experience, training, job knowledge, and salary requirements.</li>
+      <li>Provide information on the company, its policies, benefits and available opportunities to prospective candidates.</li>
+      <li>Maintain necessary files covering applicants, telephone interviews, and other pertinent hiring documentation.</li>
+      <li>Processing and Screening of CV’s.</li>
+      <li>Setting up of interviews and meetings – processing of all information needed for the candidates for interviews and meetings, and the confirmation of those meeting and interviews.</li>
+      <li>Liaise with candidates, management and clients.</li>
+      <li>Credential and Reference Checks.</li>
+      <li>Closing candidates on offers and finalizing salaries of new employment.</li>
+      <li>Following up on details needed and after sales service to candidates placed.</li>
+      <li>Everyday user of MS Suite 2010, 365 and 2013 (Office, Word, Excel etc.)</li>
+      <li>Personal researching and research done for consultants.</li>
+      <li>E-mail maintenance on MS Office 2010, 365 and 2013.</li>
+      <li>Office maintenance - Answering of calls - Receive e-mails on my office computer, sort and distribute relevant information to individuals and acknowledge unsolicited CVs or CV’s that don’t fit the required specifications.</li>
+    </p></ul>
+    <hr>
+    <p><h3><i><a href='https://www.linkedin.com/company/peoplesolved/about/'>PeopleSolved</a></i></h3></p>
+    <p>Senior Resource Consultant</p>
+    <p><i>Nov 2011 – Jul 2014</i></p>
+    <p><b>Duties and Responsibilities</b></p>
+    <p><ul>
+      <li>Source talent for open positions - Resourcing candidates and CV's - Online CV Sourcing using Pnet, Career Junction, LinkedIn, Skillpages and other Social Media.</li>
+      <li>Identify competitors and candidate sources for recruiting top talent into the organization.</li>
+      <li>Conduct outreach and recruitment activities including cold calling.</li>
+      <li>Conduct an initial telephone interview of all applicants and resourced candidates and gather all necessary information regarding education, experience, training, job knowledge, and salary requirements.</li>
+      <li>Provide information on the company, its policies, benefits and available opportunities to prospective candidates.</li>
+      <li>Maintain necessary files covering applicants, telephone interviews, and other pertinent hiring documentation.</li>
+      <li>Processing and Screening of CV’s.</li>
+      <li>Setting up of interviews and meetings – processing of all information needed for the candidates for interviews and meetings, and the confirmation of those meeting and interviews.</li>
+      <li>Liaise with candidates, management and clients.</li>
+      <li>Credential and Reference Checks.</li>
+      <li>Closing candidates on offers and finalizing salaries of new employment.</li>
+      <li>Following up on details needed and after sales service to candidates placed.</li>
+      <li>Everyday user of MS Suite 2010, 365 and 2013 (Office, Word, Excel etc.)</li>
+      <li>Personal researching and research done for consultants.</li>
+      <li>Training and up-skilling of new consultants - sharing knowledge and information with them to assist their growth.</li>
+      <li>Drafting of default emails and documentation for company and consultant use.</li>
+      <li>E-mail maintenance on MS Office 2010, 365 and 2013.</li>
+      <li>Office maintenance - Answering of calls - Receive e-mails on my office computer, sort and distribute relevant information to individuals and acknowledge unsolicited CVs or CV’s that don’t fit the required specifications.</li>
+    </p></ul>
+    <hr>
+    <p><h3><i>Kanimambo</i></h3></p>
+    <p>Recruitment Consultant</p>
+    <p><i>Jun 2011 – Oct 2011</i></p>
+    <p><b>Duties and Responsibilities</b></p>
+    <p><ul>
+      <li>Online CV Sourcing.</li>
+      <li>Office maintenance.</li>
+      <li>Answering of calls.</li>
+      <li>Liaise with clients and candidates.</li>
+      <li>Processing of CV.</li>
+      <li>Researching</li>
+      <li>Advertising, (Job adverts).</li>
+      <li>Screening of CV’s.</li>
+      <li>Credential and Reference Checks.</li>
+      <li>Inviting successful candidates for interviews Office Administration.</li>
+      <li>Research for consultants.</li>
+      <li>Typing and editing of CV’s.</li>
+      <li>Registering of new jobs on the job register.</li>
+      <li>Updating of CV’s on database.</li>
+      <li>Managing CV’s on website.</li>
+      <li>Updating status report.</li>
+      <li>Capturing and monitoring jobs advertised on P-net, Career junction and other recruitment portals.</li>
+      <li>Receive e-mails on my office computer, sort and distribute relevant information to individuals and acknowledge unsolicited CVs or CV’s that don’t fit the Spec.</li>
+      <li>Headhunting</li>
+    </p></ul>
+    <hr>
+    <p><h3><i>Valerie's Jazz Cafe</i></h3></p>
+    <p>Head Barman</p>
+    <p><i>Nov 2010 – May 2011</i></p>
+    <p><b>Duties and Responsibilities</b></p>
+    <p><ul>
+      <li>Bar tending.</li>
+      <li>Managing of 3 bars, 3 POS systems, 2 Routers, 1 Server.</li>
+      <li>Head barmen to 5 barmen’s and 4 waiters.</li>
+      <li>Phoning and informing other employees to come work/shifts.</li>
+      <li>Supplying the bars with change, stock taking and cashing up.</li>
+      <li>Stock Control adjustments of stock on VPOS system database/server.</li>
+      <li>Price adjustments of items and adding of new stock on VPOS system database/server.</li>
+      <li>Training new manager how to use the VPOS and server, how to maintain server and routers.</li>
+      <li>Training of new bar staff and waiters.</li>
+      <li>Composed my own Cocktail menu for the club (Original hard copy in my possession).</li>
+      <li>Hiring of new staff when needed, final decisions made by top management and owners.</li>
+      <li>Liaising with owners and Managers giving feedback on how the bar is performing.</li>
+      <li>Liaising with owners and managers, brainstorming ways to make the club bring in money.</li>
+    </p></ul>
+    <hr>
+    <p><h3><i>Skilpadvlei Wine Farm</i></h3></p>
+    <p>Barman & Intern Manager</p>
+    <p><i>Nov 2009 – Nov 2010</i></p>
+    <p><b>Duties and Responsibilities</b></p>
+    <p><ul>
+      <li>Manager (Restaurant / Farm).</li>
+      <li>Managing a workforce of +/- 8 Waiters, 2 Barmen’s, +/- 12 Kitchen staff +/- 12 Farm workers, (Total of +/- 34 Work Force).</li>
+      <li>Making sure Restaurant in working/operational order.</li>
+      <li>Stock control.</li>
+      <li>Liaise between Owner and Line Managers.</li>
+      <li>Handing over of tasks brought through by Line Managers.</li>
+      <li>Weekly and monthly employee check ups.</li>
+      <li>Compiling feedback and giving it through to Line Managers and Owner.</li>
+      <li>Coming up with new ways to bring in new customers.</li>
+      <li>Running of floor, checking up on clients, ordering of waiters to tables.</li>
+      <li>Setting up of table plans before day.</li>
+      <li>Watering people.</li>
+      <li>Bar tendering.</li>
+      <li>Floor Management (every second week).</li>
+    </p></ul>
+    <hr>
+    <p><h3><i>Due South Retail</i></h3></p>
+    <p>Sales Assistant</p>
+    <p><i>Nov 2008 – Dec 2009</i></p>
+    <p><b>Duties and Responsibilities</b></p>
+    <p><ul>
+      <li>Sales Floor (helping customers).</li>
+      <li>Stock control/Stock taking.</li>
+      <li>Restocking rails.</li>
+      <li>Organizing of stock.</li>
+      <li>Checking of incoming stock from suppliers.</li>
+      <li>Working and expert with equipment (Garmin GPS, TomTom, camping gadgets ect.).</li>
+      <li>Working on the POS (Point of Sale).</li>
+    </p></ul>
+    <hr>
+    <hr>
+  </div>
+  <div class='BodyDiv1'>
+    <p><h2><u>Education</u></h2></p>
+    <br>
+    <p><h3><i><u>University of the Witwatersrand</u></i></h3></p>
+    <p>Management Development for Employment Services Professionals (NQF 7)</p>
+    <p><b>Field Of Study:</b> Human Resources Management and Services</p>
+    <p><b>Grade:</b> NQF 7</p>
+    <p><b>Year Completed:</b> <i>2018</i></p>
+    <br>
+    <p><h3><i><u>Cape Peninsula University of Technology</u></i></h3></p>
+    <p>National Diploma</p>
+    <p><b>Field Of Study:</b> Management</p>
+    <p><b>Grade:</b> NQF 6</p>
+    <p><b>Year Completed:</b> <i>2010</i></p>
+    <br>
+    <p><h3><i><u>De Kuilen High School</u></i></h3></p>
+    <p>Senior Matric Certificate</p>
+    <p><b>Field Of Study:</b> Matric</p>
+    <p><b>Grade:</b> NQF 5</p>
+    <p><b>Year Completed:</b> <i>2007</i></p>
+    <hr>
+  </div>
+  <footer>
+    <h2><p align=center><b><i>For more information please email me</i></b></h2></p>
+    <p align=center> <a href='mailto:dasilva.kt@gmail.com'><input type='button' value='Click button to email'></a></p>
+    <p align=center> <strong>Thank you for taking the time to visit my page!</strong></p>
+  </footer
+</body>
+</html>
